@@ -37,17 +37,7 @@ const handleLogout = () => {
     </router-link>
     
     <ul class="mt-4">
-      <!-- Home -->
-      <li class="mb-1 group" :class="{ 'active': activeTab === 'home' }">
-        <router-link 
-          to="/" 
-          class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md group-[.active]:bg-gray-800 group-[.active]:text-white"
-          @click="setActiveTab('home')"
-        >
-          <i class="ri-home-2-line mr-3 text-lg"></i>
-          <span class="text-sm">Home</span>
-        </router-link>
-      </li>
+      
 
       <!-- Dashboard -->
       <li class="mb-1 group" :class="{ 'active': activeTab === 'dashboard' }">
